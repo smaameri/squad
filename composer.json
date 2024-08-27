@@ -1,0 +1,25 @@
+{
+    "name": "smaameri/squad",
+    "type": "library",
+    "autoload": {
+        "psr-4": {
+            "Squad\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Sami Maameri",
+            "email": "ssmaameri@gmail.com"
+        }
+    ],
+    "require": {
+        "openai-php/client": "^0.10.1",
+        "symfony/http-client": "^7.1",
+        "nyholm/psr7": "^1.8"
+    },
+    "config": {
+        "allow-plugins": {
+            "php-http/discovery": true
+        }
+    }
+}
